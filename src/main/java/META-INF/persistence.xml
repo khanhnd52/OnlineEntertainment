@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="OnlineEntertaiment" transaction-type="RESOURCE_LOCAL">
+		<class>com.khanhnd.model.Favorite</class>
+		<class>com.khanhnd.model.Share</class>
+		<class>com.khanhnd.model.User</class>
+		<class>com.khanhnd.model.Video</class>
+		<properties>
+			<property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://172.17.0.2:1433;databaseName=OE;encrypt=true;trustServerCertificate=true;"/>
+			<property name="javax.persistence.jdbc.user" value="sa"/>
+			<property name="javax.persistence.jdbc.password" value="khanhnguyen99"/>
+			<property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect"/>
+		</properties>
+	</persistence-unit>
+</persistence>
