@@ -42,8 +42,8 @@
 				</button>
 				<div class="collapse navbar-collapse" id="collapsibleNavId">
 					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-						<li class="nav-item active"><a class="nav-link" href="#"><i
-								class="fa fa-home" aria-hidden="true"></i> <span class="sr-only">(current)</span></a>
+						<li class="nav-item active"><a class="nav-link" href="Homepage"><i
+								class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item"><a class="nav-link" href="#"><i
 								class="fa fa-info" aria-hidden="true"></i> About Us</a></li>
@@ -64,7 +64,7 @@
 								<c:if test="${  isLogin }">
 									<a class="dropdown-item" href="Logout">Logout</a>
 									<a class="dropdown-item" href="#">Change Password</a>
-									<a class="dropdown-item" href="#">Edit Profile</a>
+									<a class="dropdown-item" href="EditProfile">Edit Profile</a>
 								</c:if>
 
 							</div></li>
